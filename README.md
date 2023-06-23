@@ -7,7 +7,22 @@
 <p align='center'><img src='Img/ML_model_features2.png' width=885 height=500></p>
 <p align='center'><img src='Img/ML_model_features3.png' width=885 height=500></p>
 
-<h2>Linear and polynomial regresion</h2>
+<h2>Linear regression</h2>
+<pre>
+#Model: supervised
+#Trained with: (X,y)
+#Prediction: continuous numbers
+#Mathematical approach: least squares method, linear equation
+#Performance test: r2_score
+</pre>
+<h2>Logistical regression</h2>
+<pre>
+#Model: supervised
+#Trained with: (X,y)
+#Prediction: continuous numbers (probability between 0,1)
+#Mathematical approach: sigmoid fuction, linear equation
+#Performance test:
+</pre>
 
 <h2>K-NN</h2>
 
