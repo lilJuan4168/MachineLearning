@@ -21,10 +21,18 @@
 #Trained with: (X,y)
 #Prediction: continuous numbers (probability between 0,1)
 #Mathematical approach: sigmoid fuction, linear equation
-#Performance test:
+#Performance test: model.score(X_test, y_test)
 </pre>
 
 <h2>K-NN</h2>
+<pre>
+#Model: supervised
+#Trained with: (X,y)
+#Hyperpameters: number of neighbours(K)
+#Prediction: categories(labels discrete numbers)
+#Mathematical approach: euclidean distance (pythagory)
+#Performance: model.score(X_test, y_test), metrics.accuracy_score(y_test, y_pred)
+</pre>
 
 <h2>Decision tree and random forest</h2>
 
