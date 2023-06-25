@@ -5,7 +5,7 @@
 <h2>Classification</h2>
 <li><b>Supervised</b>: It needs labeled examples to train (X,y)</li>
 <li><b>Unsupervised</b>: It does not need a label to train (X)</li>
-<li><b>Semi-supervised</b></li>
+<li><b>Semi-supervised</b>: It uses labeled data and a lot of unlabeled data</li>
 <li><b>Reinforcement</b>: It is a dinamic models where it learn from iterations, faults and success</li>
 <li><b>Batch</b>: It uses a bunch of data and no more to train the model</li>
 <li><b>Online</b>: The model learns from new data automaticaly all the time</li>
@@ -55,7 +55,16 @@
 </pre>
 <img src='Img/svm.png' width=640 height=480>
 
-<h2>Decision tree and random forest</h2>
+<h2>Decision tree</h2>
+<pre>
+#Model: supervised
+#Trained with: (X,y)
+#Hyperpameters: 
+#Prediction: categories (labels, discrete numbers), continuous 
+#Mathematical approach: 
+#Performance: model.score(X_test, y_test), metrics.accuracy_score(y_test, y_pred)
+</pre>
+<img src='Img/DT.png' width=640 height=480>
 
 <h2>K-means</h2>
 
