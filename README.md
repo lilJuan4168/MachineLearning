@@ -55,11 +55,11 @@
 </pre>
 <img src='Img/svm.png' width=640 height=480>
 
-<h2>Decision tree</h2>
+<h2>Decision tree  and random forest</h2>
 <pre>
 #Model: supervised
 #Trained with: (X,y)
-#Hyperpameters: 
+#Hyperpameters: criterion, max_features, 
 #Prediction: categories (labels, discrete numbers), continuous 
 #Mathematical approach: 
 #Performance: model.score(X_test, y_test), metrics.accuracy_score(y_test, y_pred)
@@ -67,10 +67,31 @@
 <img src='Img/DT.png' width=640 height=480>
 
 <h2>K-means</h2>
+<pre>
+#Model: unsupervised
+#Trained with: (X)
+#Hyperpameters: n_clusters, algorithm 
+#Prediction: categories (labels, discrete numbers) 
+#Mathematical approach: distance between points, centroids 
+#Performance: model.score(X_test, y_test), metrics.accuracy_score(y_test, y_pred)
+</pre>
+<img src='Img/kmeansgraph.png' width=640 height=480>
 
 <h2>DBscan</h2>
+<pre>
+#Model: unsupervised
+#Trained with: (X)
+#Hyperpameters:
+#Prediction: categories (labels, discrete numbers) 
+#Mathematical approach: distance between points
+#Performance: model.score(X_test, y_test), metrics.accuracy_score(y_test, y_pred)
+</pre>
+<img src='Img/DB.png' width=640 height=480>
 
 <h2>Anomaly and novalty detection</h2>
+<pre>
+
+</pre>
 
 
 
